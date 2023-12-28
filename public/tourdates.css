@@ -1,0 +1,16 @@
+.Gallery {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(114, 113, 139, 0.829);
+    color: #fff;
+}
+
+
+
+
+div {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }

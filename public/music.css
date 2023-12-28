@@ -1,0 +1,129 @@
+
+
+
+header {
+    font-family: "Bebas Neue"; 
+ 
+ 
+ 
+ }
+ 
+
+
+body {
+    font-family: Bebas Neue;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+    background-image: url("Resized/Background2.jpg");
+    background-size: 100% 100%;
+
+}
+
+
+.image-container
+ {
+position: relative;
+width: 200px;
+height: 200px;
+transform-style: preserve-3d;
+transform: perspective(1000px) rotateY(0deg);
+transition: transform 0.7s;
+
+}
+
+.image-container span{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotateY(calc(var(--i) *45deg)) translateZ(450px);
+}
+
+
+.image-container span img{
+   position: absolute;
+   left: 0;
+   top: 0;
+   width: 100%;
+
+}
+
+
+
+/* .btn-container{
+    position: absolute;
+    width: 80%;
+} */
+
+div.btn-container {
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+    bottom: -160px;
+    font-family: Bebas Neue;
+
+}
+
+#prev {
+
+    left: 30%;
+    color: black;
+}
+
+
+
+#next {
+
+    right: 30%;
+    color: black;
+}
+
+
+
+
+a.nav-link {
+padding: 0px;
+
+}
+
+
+
+/* making the socials buttons centerand on one line */
+div.socials-container {
+  display:flex;
+  justify-content: center;
+  position: relative;
+  bottom: -165px;
+
+}
+
+ a.nav-link  {
+    padding-inline: 30px;
+} 
+
+
+/* button.btn-secondary {
+
+    padding-inline: 30px;
+} */
+
+Find all the streaming services mitt is on and creating a cool page with them all on 
+
+
+make automatic email form or somthing
+
+
+
+
+
+
+
+
+styling the navbar making align content centere
